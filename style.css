@@ -1,0 +1,316 @@
+#body1{
+    background-color: hsl(160, 100%, 57%);
+}
+
+#body2{
+    background-color: hsl(231, 75%, 50%);
+}
+
+#body3{
+    background-color: hsl(271, 63%, 60%);
+}
+
+#body4{
+    background-color: hsl(16, 79%, 60%);
+}
+
+input{
+    width: 30vw;
+}
+
+button{
+    font-size: 1.5rem;
+}
+
+.textW{
+    font-size: 4rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 5%;
+}
+
+.linkNav{
+    font-size: 2.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    border: 1px solid hsl(0, 1%, 15%);
+    border-radius: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: hsl(0, 1%, 15%);
+}
+
+.linkNav:hover{ 
+    border: 1px solid hsl(0, 1%, 15%);
+    border-radius: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: hsl(0, 0%, 50%);
+}
+
+#first{
+    background-color: hsl(0, 0%, 15%);
+    height:max-content;
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#bv{
+    font-size: 4.3rem;
+    font-weight: 600;
+}
+
+#containerNav{
+    background-color: hsl(0, 0%, 45%);
+    height: 110px;
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 10px;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 3px 3px 25px hsl(0, 0%, 70%);
+}
+
+#abtMe{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: hsl(0, 0%, 15%);
+    height: fit-content;
+    width: 50dvw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+}
+
+#empresa{
+    display: flexbox;
+    float: left;
+    color: white;
+    background-color: hsl(0, 0%, 15%);
+    height: fit-content;
+    width: 50dvw;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+#imgMe{
+    display: flexbox;
+    float: right;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: auto;
+    height: 400px;
+}
+
+#logo{
+    display: flexbox;
+    float: inline-start;
+    height: 300px;
+    margin-right: 40px;
+    width: auto;
+    align-self: center;
+}
+
+#empresaText{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#listFaculs{
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+#profileBox{
+    display: flex;
+    height: fit-content;
+    padding-top: 40px;
+    background-color: hsl(0, 0%, 45%);
+    border-radius: 30px;
+    box-shadow: 3px 3px 25px hsl(0, 0%, 70%);
+}  
+
+
+
+.skillType{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.descSkill{
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.contBlock0{
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+    height: fit-content;
+    background-color: hsl(0, 0%, 30%);
+    padding-left: 100px;
+    padding-right: 100px;
+    border: none;
+    border-radius: 30px;
+    margin: 20px;
+    box-shadow: 3px 3px 25px hsl(0, 0%, 35%);
+    overflow: hidden;
+}
+
+.listPoint{
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.skillLink{
+    color: white;
+    text-decoration: none;
+}
+.skillLink:hover{
+    color: hsl(205, 100%, 62%);
+    font-size: 2.1rem;
+    text-decoration: none;
+}
+
+#workBox{
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: hsl(0, 0%, 45%);
+    border-radius: 30px;
+    box-shadow: 3px 3px 25px hsl(0, 0%, 35%);
+}
+
+
+
+.contBlock{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25vw;
+    height: fit-content;
+    background-color: hsl(0, 0%, 30%);
+    border: 3px solid whitesmoke;
+    margin: 20px;
+    overflow: hidden;
+} 
+
+.hobbies{
+    height: 15vh;
+    width: 20vh;
+}
+
+.hobbieName{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+
+.listName{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 1.6rem;
+}
+
+.descSubT{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+}
+
+
+
+.contBlock2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: vw;
+    background-color: hsl(0, 0%, 30%);
+    padding: 15px;
+    border: 3px solid whitesmoke;
+    margin: 20px;
+    overflow: hidden;
+} 
+
+.formT{
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.icons{
+    height: 80px;
+    margin-left: 20px;
+}
+
+#contactList{
+    display:flex;
+    height: fit-content;
+    padding: 40px;
+    background-color: hsl(0, 0%, 45%);
+    border-radius: 30px;
+    box-shadow: 3px 3px 25px hsl(0, 0%, 35%);
+}
+
+#instaIndex{
+    float: inline-start;
+}
+
+#linkedinIndex{
+    float: left;
+}
+
+#form{
+    width: 40vw;
+    background-color: hsl(0, 0%, 35%);
+    border: 3px solid whitesmoke;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 40px;
+    float: left;
+}
+
+#bodyHob{
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: hsl(0, 0%, 45%);
+    border-radius: 30px;
+    box-shadow: 3px 3px 25px hsl(0, 0%, 35%);
+}
+
+
+
